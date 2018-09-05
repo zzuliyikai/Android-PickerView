@@ -260,10 +260,10 @@ public class BasePickerView {
     private View.OnKeyListener onKeyBackListener = new View.OnKeyListener() {
         @Override
         public boolean onKey(View v, int keyCode, KeyEvent event) {
-            if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == MotionEvent.ACTION_DOWN && isShowing()) {
-                dismiss();
-                return true;
-            }
+//            if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == MotionEvent.ACTION_DOWN && isShowing()) {
+//                dismiss();
+//                return true;
+//            }
             return false;
         }
     };
